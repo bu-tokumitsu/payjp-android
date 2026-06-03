@@ -9,8 +9,7 @@ junitKtx = "1.1.5"
 kotlin = "2.0.0"
 browser = "1.6.0"
 leakcanaryAndroid = "2.14"
-okHttp3 = "3.12.13"
-okHttp3NewVer = "4.12.0"
+okHttp3 = "4.12.0"
 moshi = "1.15.1"
 retrofit = "2.11.0"
 lifecycle = "2.6.2"
@@ -56,7 +55,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutine" }
 leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanaryAndroid" }
-okHttp3-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttp3NewVer" }
+okHttp3-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttp3" }
 okHttp3-loggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttp3" }
 okHttp3-mockServer = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okHttp3" }
 moshi-core = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
