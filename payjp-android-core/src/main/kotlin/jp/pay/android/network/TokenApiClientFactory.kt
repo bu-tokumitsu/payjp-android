@@ -73,9 +73,6 @@ internal object TokenApiClientFactory {
                     )
                 }
             }
-            .let {
-                OkHttpTlsHelper.enableTls12OnPreLollipop(it, PayjpLogger.get(debuggable))
-            }
             .dispatcher(Dispatcher(NetworkExecutorFactory.create()))
             .build()
 
