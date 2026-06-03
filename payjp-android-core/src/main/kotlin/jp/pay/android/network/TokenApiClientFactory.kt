@@ -24,7 +24,6 @@ package jp.pay.android.network
 
 import com.squareup.moshi.Moshi
 import jp.pay.android.PayjpApi
-import jp.pay.android.PayjpLogger
 import jp.pay.android.model.BundleJsonAdapter
 import jp.pay.android.model.CardBrand
 import jp.pay.android.model.ClientInfo
