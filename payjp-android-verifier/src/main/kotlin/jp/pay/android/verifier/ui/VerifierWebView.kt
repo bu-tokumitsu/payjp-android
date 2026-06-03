@@ -160,9 +160,6 @@ internal class VerifierWebView @JvmOverloads constructor(
             domStorageEnabled = true
             @SuppressLint("SetJavaScriptEnabled")
             javaScriptEnabled = true
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR2) {
-                savePassword = false
-            }
         }
         if (WebViewFeature.isFeatureSupported(WebViewFeature.SAFE_BROWSING_ENABLE)) {
             WebSettingsCompat.setSafeBrowsingEnabled(settings, true)
