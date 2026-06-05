@@ -59,7 +59,7 @@ tasks.named("dokkaHtmlCollector") {
 }
 
 ext {
-    minSdkVersion = 16
+    minSdkVersion = 21
     sdkVersion = 35
     numberOfCommits = numberOfCommits()
 }

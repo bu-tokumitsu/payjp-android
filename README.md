@@ -23,8 +23,8 @@ Androidでの利用 | PAY.JP https://pay.jp/docs/mobileapp-android
 
 ## 動作環境
 
-- Android Studio 3.0以上
-- Android OS 4.1 (API Level 16) 以上
+- Android Studio Ladybug Feature Drop (2024.2.2) 以上
+- Android OS 5.0 (API Level 21) 以上
 
 ## インストール
 
